@@ -15,11 +15,6 @@
 
 テクスチャなしの鳥モデルを、墨絵の陰影で眺めるビューア。Three.js。アニメーションは28クリップ。
 
-```bash
-npm install
-npm run dev
-```
+`npm install` のあと `npm run dev`。ブラウザで http://127.0.0.1:8080/ 。
 
-ブラウザで http://127.0.0.1:8080/ 。
-
-`public/bird.glb` と `public/og.jpg` はバイナリなので、リポジトリには `public/encoded/` の分割 base64 を置いている。`npm install` が `scripts/unpack-assets.mjs` を走らせて元のファイルに戻す。
+モデルは `public/bird.glb` に元の GLB をそのまま置く。バイナリなので、GitHub のウェブからそのパスへアップロードすればよい。
